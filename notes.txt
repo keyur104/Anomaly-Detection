@@ -1,0 +1,6 @@
+kernel - kernel is nothing but a filter that is used to extract the features from the images. The kernel is a matrix that moves over the input data, performs the dot product with the sub-region of input data, and gets the output as the matrix of dot products.
+
+
+filter - Filters detect spatial patterns such as edges in an image by detecting the changes in intensity values of the image
+
+stride - Stride is a parameter of the neural network's filter that modifies the amount of movement over the image or video. For example, if a neural network's stride is set to 1, the filter will move one pixel, or unit, at a time.
